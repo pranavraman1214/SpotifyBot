@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="com.adamratzman:spotify-web-api-kotlin:3.1.2" type="repository">
+    <properties maven-id="com.adamratzman:spotify-web-api-kotlin:3.1.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spotify-web-api-kotlin-3.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20180130.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-1.2.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-1.2.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-1.2.31.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/spotify-web-api-kotlin-3.1.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20180130-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.10.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-1.2.31-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-1.2.31-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-13.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-1.2.31-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/spotify-web-api-kotlin-3.1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20180130-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.10.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-1.2.31-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-1.2.31-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-13.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-1.2.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
