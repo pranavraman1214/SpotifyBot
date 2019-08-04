@@ -15,11 +15,9 @@ public class ServerClass {
         server.start();
     }
     public String getRedirectURI() {
-        //System.out.println(server.getAddress().toString());
         return tokencode;
     }
     public void sendQuery(String query) {
-        System.out.println(query);
         tokencode = query;
     }
     public class MyHandler implements HttpHandler {
