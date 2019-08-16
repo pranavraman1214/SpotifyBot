@@ -1,4 +1,10 @@
 import com.adamratzman.spotify.utils.SimpleTrack;
+import com.ibm.watson.developer_cloud.service.security.IamOptions;
+import com.ibm.watson.developer_cloud.tone_analyzer.v3.ToneAnalyzer;
+import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.DocumentAnalysis;
+import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneAnalysis;
+import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneOptions;
+import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneScore;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -114,6 +120,23 @@ public class LyricData {
             }
         }
         return words_found;
+    }
+
+    public double getToneOfLyrics(String lyrics) {
+        ToneAnalyzer service = new ToneAnalyzer("2017-09-21");
+        IamOptions options = new IamOptions.Builder()
+                .apiKey("")
+                .build();
+        service.setIamCredentials(options);
+
+        ToneOptions toneOptions = new ToneOptions.Builder()
+                .html(lyrics)
+                .build();
+
+        DocumentAnalysis tone = service.tone(toneOptions).execute().getDocumentTone();
+
+        System.out.println(tone.getTones().get(0));
+        return tone.getTones().get(0).getScore();
     }
 
 }
