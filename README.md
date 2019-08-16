@@ -1,5 +1,7 @@
 # SpotifyBot
 This is a personal project to analyze my spotify listening history, and using this data create new playlists for myself. 
 
-## Writes Data To Excel 
-<img width="1355" alt="Screen Shot 2019-05-31 at 10 35 22 PM" src="https://user-images.githubusercontent.com/42951007/63145643-cec12780-bfbd-11e9-8a70-11c16c622711.png">
+## Writes Data To Excel For Easy Readability 
+<img width="1657" alt="Screen Shot 2019-08-16 at 12 35 00 AM" src="https://user-images.githubusercontent.com/42951007/63145739-295a8380-bfbe-11e9-9b0b-2cf50e2e1259.png">
+
+
