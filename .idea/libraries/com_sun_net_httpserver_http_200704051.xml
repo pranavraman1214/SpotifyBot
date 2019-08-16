@@ -1,12 +1,9 @@
-<component name="libraryTable">
-  <library name="com.sun.net.httpserver:http:200704051" type="repository">
-    <properties maven-id="com.sun.net.httpserver:http:20070405" />
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/http-20070405.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/lib/http-20070405-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="libraryTable" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="com.adamratzman:spotify-web-api-kotlin:3.1.31" level="project" />
+    <orderEntry type="library" name="org.apache.poi:poi-ooxml-schemas:3.13" level="project" />
+  </component>
+</module>
